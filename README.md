@@ -50,7 +50,7 @@ Even you just want to update the "addr" you have pass the entire information exc
     }
 }
 
-// here if you want to update the "addr" then for the PUT endpoint we have pass the below body
+// here if you want to update the "addr" then for the PUT endpoint we have to pass the below body
 
 {
     "name": "Logesh",
@@ -68,23 +68,23 @@ Once the Employee is deleted then the ID of the deleted employee is not reused f
 
 Every employees will have their own ID.
 
-### Get emp 
+### GET emp 
 
 ![image](https://github.com/LogeshVel/simple_restapi/blob/main/logs/get_emp.png)
 
-### Get all emp
-
-![image](https://github.com/LogeshVel/simple_restapi/blob/main/logs/get_all_emp.png)
-
-### Get create emp
+### POST create emp
 
 ![image](https://github.com/LogeshVel/simple_restapi/blob/main/logs/create_emp.png)
 
-### Get put emp
+### GET all emp
+
+![image](https://github.com/LogeshVel/simple_restapi/blob/main/logs/get_all_emp.png)
+
+### PUT update emp
 
 ![image](https://github.com/LogeshVel/simple_restapi/blob/main/logs/put_emp.png)
 
-### Get delete emp
+### DELETE delete emp
 
 ![image](https://github.com/LogeshVel/simple_restapi/blob/main/logs/delete_emp.png)
 
